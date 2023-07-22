@@ -2,7 +2,6 @@ import React from 'react'
 import Tour from './Tour'
 
 const Tours = (props) => {
-	// take out tours from props
 	const { tours, removeTour } = props
 
 	return (

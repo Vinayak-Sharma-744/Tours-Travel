@@ -16,7 +16,7 @@ function App() {
 	}
 
 	async function fetchTours() {
-		// set loading to true here
+
 		setLoading(true)
 
 		const data = await fetch(url)
@@ -24,7 +24,7 @@ function App() {
 		setTours(jsonData)
 
 		setLoading(false)
-		// set loading to false here
+
 	}
 
 	useEffect(() => {
